@@ -1,0 +1,159 @@
+.center{
+    height: 200px;
+  position: relative;
+}
+.center-elements{
+  display: block;
+  text-align: center;
+  margin-top: 5%;
+  font-family: monospace;
+}
+.title-text{
+    font-size: 25px;
+}
+.artist-text{
+    font-size:20px;
+}
+.track-details-button-style{
+  background-color: #007aff; /* Green */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.action-button {
+  background-color: #007aff;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  height: 28px;
+  min-width: 90px;
+  line-height: inherit;
+  -webkit-padding-start: 12px;
+  padding-inline-start: 12px;
+  -webkit-padding-end: 12px;
+  padding-inline-end: 12px;
+  text-align:center
+}
+.action-button, .action-button::before {
+  display: inline-block;
+  position: relative;
+  z-index:1
+}
+.typography-label-emphasized {
+  font-size: 14px;
+  line-height: 1.28577;
+  font-weight: 600;
+  letter-spacing: 0;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif}
+
+
+  .center-tracks{
+    display: block;
+    text-align: center;
+    font-family: monospace;
+}
+.tracks-artist{
+    font-size: 30px;
+}
+.tracks-name{
+    font-size:20px;
+}
+.price-name{
+    font-size:15px;
+}
+.button-style{
+    background-color: #84f5aa; /* Green */
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+  .img-square-wrapper{
+   display: block;
+   margin: auto auto;}
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(68, 68, 255, 0.61);
+  }
+  li {
+    float: left;
+  }
+  .nav-link-styles{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: rgba(68, 68, 255, 0.61);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
